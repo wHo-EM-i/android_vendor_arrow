@@ -35,6 +35,7 @@ SOONG_CONFIG_voltageGlobalVars += \
     gralloc_handle_has_reserved_size \
     gralloc_handle_has_custom_content_md_reserved_size \
     needs_netd_direct_connect_rule \
+    disable_postrender_cleanup \
     target_alternative_futex_waiters \
     target_health_charging_control_charging_path \
     target_health_charging_control_charging_enabled \
@@ -66,6 +67,7 @@ endif
 SOONG_CONFIG_voltageGlobalVars_gralloc_handle_has_custom_content_md_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE)
 SOONG_CONFIG_voltageGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 SOONG_CONFIG_voltageGlobalVars_needs_netd_direct_connect_rule := $(TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE)
+SOONG_CONFIG_voltageGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 SOONG_CONFIG_voltageGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERNATIVE_FUTEX_WAITERS)
 SOONG_CONFIG_voltageNvidiaVars_uses_nv_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_voltageQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
